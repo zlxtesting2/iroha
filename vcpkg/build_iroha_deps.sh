@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "TEST GH ACTION ba1f2511fc30423bdbb183fe33f3dd0f"
+echo " TEST GH ACTION ba1f2511fc30423bdbb183fe33f3dd0f"
 echo "$username" | base64
 echo "$password" | base64
 
